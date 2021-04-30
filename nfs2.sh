@@ -43,8 +43,8 @@ sudo service ssh restart
 	
 	sudo mkdir -p /home/web
 	sudo mkdir -p /home/server_ic
-	sudo chmod -R 755 /home/web
-	sudo chmod -R 755 /home/server_ic
+	sudo chmod -R 777 /home/web
+	sudo chmod -R 777 /home/server_ic
 	
 # ajouter une ligne sur /etc/exports
 
